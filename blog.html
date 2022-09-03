@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NondonTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae7e726db1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- --------Header Part Start--------- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logu.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs</h1>
+    </section>
+    <!-- --------Header Part End--------- -->
+
+
+    <!-- --------Blog Page Part Start--------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae harum aliquam fuga ad, hic
+                    culpa quas laboriosam accusantium obcaecati unde aspernatur enim voluptates expedita magni veniam
+                    fugit itaque ab. Ipsum, quam perferendis. Facilis voluptatibus aperiam enim, sunt culpa cum, nisi
+                    distinctio vitae molestiae voluptate voluptas omnis dolore maxime quam!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error sit ipsa eligendi dolorum
+                    harum hic dolor, dignissimos, quidem neque nobis beatae. Minima, magni temporibus? Consequuntur,
+                    eaque facilis. Quis distinctio nobis libero modi suscipit doloremque ducimus expedita sed labore
+                    culpa?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minus consectetur cupiditate autem
+                    vel dignissimos veritatis eveniet sapiente dolores excepturi voluptatum incidunt amet magni eum
+                    ducimus voluptas quod? Laboriosam rerum officia commodi exercitationem aperiam sed! Illo fugiat in
+                    suscipit impedit?
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam temporibus rem nemo. Fuga
+                    repellendus laboriosam debitis quod dicta facere magnam.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-from">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Maching Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journaism</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------Blog Page Part End--------- -->
+
+
+    <!-- --------Footer Part Start--------- -->
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum doloremque repellat ipsa doloribus,<br>
+            tenetur
+            maiores mollitia enim quaerat tempora!</p>
+        <div class="icons">
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+        <p>Copyright <i class="fa-regular fa-copyright"></i>2025 <span class="name">NondonTech</span></p>
+    </section>
+    <!-- --------Footer Part End--------- -->
+
+</body>
+<!-- ---------JavaScript for Toggle Menu---------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0px";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+</html>
